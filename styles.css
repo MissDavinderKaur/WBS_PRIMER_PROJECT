@@ -51,7 +51,6 @@ main {
     flex: 1;
 }
 
-/* result box centered below */
 .result {
     margin-top: 2rem;
     display: flex;
