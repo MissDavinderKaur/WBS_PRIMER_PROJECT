@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Retirement Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Retirement Planner</h1>
+    </header>
+
+    <main>
+        <section class="input-fields">
+            <article class="box pension-pot">
+                <h2>Pension Pot Size</h2>
+                <select id="pension-pot" name="pensionPot">
+                    <option value="50000">£50,000</option>
+                    <option value="55000">£55,000</option>
+                    <option value="60000">£60,000</option>
+                    <option value="65000">£65,000</option>
+                    <option value="70000">£70,000</option>
+                    <option value="75000">£75,000</option>
+                    <option value="80000">£80,000</option>
+                    <option value="85000">£85,000</option>
+                    <option value="90000">£90,000</option>
+                    <option value="95000">£95,000</option>
+                    <option value="100000">£100,000</option>
+                </select>
+            </article>
+
+            <article class="box ages">
+                <div class="current-age">
+                    <h2>Current Age</h2>
+                    <select id="current-age" name="currentAge">
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <option value="45">45</option>
+                        <option value="46">46</option>
+                        <option value="47">47</option>
+                        <option value="48">48</option>
+                        <option value="49">49</option>
+                        <option value="50">50</option>
+                        <option value="51">51</option>
+                        <option value="52">52</option>
+                        <option value="53">53</option>
+                        <option value="54">54</option>
+                        <option value="55">55</option>
+                    </select>
+                </div>
+                <div class="retirement-age">
+                    <h2>Retirement Age</h2>
+                    <input type="number" id="retirement-age" name="retirementAge" value="57" readonly />
+                </div>
+            </article>
+
+            <article class="box required-income">
+                <h2>Required Annual Income</h2>
+                <select id="required-income" name="requiredIncome">
+                    <option value="10000">£10,000</option>
+                    <option value="15000">£15,000</option>
+                    <option value="20000">£20,000</option>
+                    <option value="25000">£25,000</option>
+                    <option value="30000">£30,000</option>
+                    <option value="35000">£35,000</option>
+                    <option value="40000">£40,000</option>
+                    <option value="45000">£45,000</option>
+                    <option value="50000">£50,000</option>
+                </select>
+            </article>
+        </section>
+
+        <section class="result">
+            <article class="box runout-age">
+                <h2>Pension Pot Run‑Out Age</h2>
+                <!-- dynamically updated value goes here -->
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Retirement Planner</p>
+    </footer>
+</body>
+</html>
